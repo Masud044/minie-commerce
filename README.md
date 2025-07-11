@@ -59,5 +59,5 @@ To deploy it to a production environment, follow the deployment instructions spe
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-Livesite Link:
+Livesite Link: https://miniecommerce-shoping.netlify.app/
 
