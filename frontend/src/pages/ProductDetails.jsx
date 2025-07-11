@@ -51,7 +51,7 @@ const ProductDetails = () => {
           
            <button
           onClick={() => addToCart(product)}
-          className="mt-4 bg-teal-600 text-white text-sm font-medium py-2 px-8 rounded-lg hover:bg-teal-700 transition "
+          className="mt-4 bg-teal-600 text-white text-sm font-medium py-2 px-8 rounded-lg hover:bg-teal-700 transition cursor-pointer "
         >
           AddToCart
         </button>
