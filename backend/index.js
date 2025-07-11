@@ -20,13 +20,11 @@ MongoClient.connect(mongoUri)
     console.log("✅ Connected to MongoDB");
 
     // Start the server
-    module.exports = async (req, res) => {
-      console.log(`🚀 Server running at http://localhost:${port}`);
-    }
+   
     
-    // app.listen(port, () => {
-    //   console.log(`🚀 Server running at http://localhost:${port}`);
-    // });
+    app.listen(port, () => {
+      console.log(`🚀 Server running at http://localhost:${port}`);
+    });
   })
   .catch(err => console.error("MongoDB connection error:", err));
 
